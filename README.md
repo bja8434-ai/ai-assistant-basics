@@ -1,15 +1,13 @@
-# ai-assistant-basics
+## Purpose
+This project explores the architecture of an AI-powered actuarial assistant.
 
-Learning project for building an AI Actuarial Assistant.
+## Current state
+- No real LLM integration
+- Stub / placeholder logic only
+- Focus on structure, interfaces, and workflow
 
-## Goal
-Build an assistant with a clean, testable architecture first (LLM is stubbed initially).
+## Next steps
+- Define assistant service layer
+- Add stubbed LLM provider
+- Expose via CLI
 
-## Current State
-- LLM: Stub (no external calls)
-- Interface: ask(question, context) -> structured response
-- Focus: contracts, workflow, and repo structure
-
-## How to run (CLI)
-```bash
-python -m app.cli "What is DAC amortization?"
