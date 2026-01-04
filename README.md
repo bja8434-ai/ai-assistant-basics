@@ -11,3 +11,9 @@ This project explores the architecture of an AI-powered actuarial assistant.
 - Add stubbed LLM provider
 - Expose via CLI
 
+## Status (pause point)
+
+- FastAPI RAG stub refactored into packages
+- Retrieval uses fuzzy matching (RapidFuzz)
+- No embeddings or LLM yet
+- Next step: add answer synthesis OR embeddings
